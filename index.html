@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="./" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ivy Nail Art & Beauty in San Francisco: premium nail art and eyelash extensions crafted to perfection."
+    />
+    <title>Breathe In Aesthetics | Rancho Murieta</title>
+
+    <link rel="stylesheet" href="./styles/Main.css" />
+    <link rel="stylesheet" href="./styles/Header.css" />
+    <link rel="stylesheet" href="./styles/Testimonials.css" />
+    <link rel="stylesheet" href="./styles/About.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header flex justify-space-between align-center p-20">
+      <div class="logo">
+        <a href="/">
+          <h3>
+            Breathe In Aesthetics
+            <span class="tagline">By Felicia Vera-Weaver</span>
+          </h3>
+        </a>
+      </div>
+
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" role="navigation">
+        <button class="close-nav" aria-label="Close navigation">&times;</button>
+        <ul class="flex gap-30">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#cta">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero hero-animate">
+        <div class="hero-image">
+          <img
+            src="/images/logo.jpg"
+            alt="Felicia Vera-Weaver"
+            loading="lazy"
+          />
+        </div>
+        <div class="slogan">Facials • Skin Treatments • Self-Care Rituals</div>
+        <h1>Luxury Aesthetic Services in Rancho Murieta</h1>
+        <p>Helping you glow with confidence — naturally and beautifully.</p>
+        <a href="#cta" class="btn mt-20">Book a Consultation</a>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section id="services" class="section services">
+        <div class="container">
+          <h2 class="section-title">Services</h2>
+          <p class="section-subtitle">
+            Personalized facial treatments for every skin type
+          </p>
+
+          <div class="services">
+            <!-- Custom Facials -->
+            <div class="service-card">
+              <div class="icon">
+                <img
+                  src="./images/beauty-treatment (1).png"
+                  alt="Custom Facials"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Custom Facials</h3>
+              <p>
+                Tailored to your skin’s needs using professional-grade products
+                and holistic techniques.
+              </p>
+            </div>
+
+            <!-- Hydration Therapy -->
+            <div class="service-card">
+              <div class="icon">
+                <img
+                  src="./images/serum (1).png"
+                  alt="Hydration Therapy"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Hydration Therapy</h3>
+              <p>
+                Replenish your glow with deeply moisturizing facials designed to
+                restore balance and radiance.
+              </p>
+            </div>
+
+            <!-- Anti-Aging Treatments -->
+            <div class="service-card">
+              <div class="icon">
+                <img
+                  src="./images/anti-aging.png"
+                  alt="Anti-Aging Treatments"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Anti-Aging Treatments</h3>
+              <p>
+                Minimize fine lines and support collagen with firming,
+                revitalizing treatments.
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center mt-40">
+            <a href="#cta" class="btn"> Book Your Facial </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY SECTION -->
+      <section id="gallery" class="ig-gallery section">
+        <div class="container">
+          <h2 class="section-title">Client Glow Moments</h2>
+          <p class="section-subtitle">
+            Glimpses of radiant skin and peaceful care — each facial a moment of
+            self-renewal.
+          </p>
+
+          <div class="ig-grid mb-40">
+            <div class="gallery-item">
+              <a
+                href="./images/Gallery-1.jpg"
+                class="gallery-link"
+                data-caption="Hydration facial session using Eminence Organics"
+              >
+                <img
+                  src="./images/Gallery-1.jpg"
+                  alt="Hydrating facial"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="gallery-item">
+              <a
+                href="./images/Gallery-2.jpg"
+                class="gallery-link"
+                data-caption="Afterglow moment — skin prepped and glowing"
+              >
+                <img
+                  src="./images/Gallery-2.jpg"
+                  alt="Facial result"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="gallery-item">
+              <a
+                href="./images/Gallery-3.jpg"
+                class="gallery-link"
+                data-caption="Product ritual with natural, pregnancy-safe ingredients"
+              >
+                <img
+                  src="./images/Gallery-3.jpg"
+                  alt="Product ritual"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="gallery-item">
+              <a
+                href="./images/Gallery-4.jpg"
+                class="gallery-link"
+                data-caption="Client self-care moment in the treatment room"
+              >
+                <img
+                  src="./images/Gallery-4.jpg"
+                  alt="Treatment room moment"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="text-center mt-50">
+            <a
+              href="https://www.instagram.com/breatheinaesthetics/"
+              class="insta-btn"
+              target="_blank"
+            >
+              See More on Instagram
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Felicia</h2>
+          <p class="section-subtitle">
+            Where healing, beauty, and self-love come together
+          </p>
+          <div class="flex">
+            <div class="about-image">
+              <img
+                src="./images/About.jpg"
+                alt="Felicia Vera-Weaver"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-content">
+              <p>
+                At <strong>Breathe In Aesthetics</strong>, I believe true
+                healing starts from within. Through intentional skincare, I help
+                my clients not only improve their skin, but also reconnect with
+                themselves.
+              </p>
+              <p>
+                I offer a range of holistic facial treatments — including
+                <strong>lymphatic drainage massage</strong>,
+                <strong>Gua Sha</strong>, <strong>Hydrafacial</strong>, and
+                <strong>peels</strong> — designed to nurture both your skin and
+                your soul. Each service is a blend of technique and care,
+                personalized to your skin’s needs and your moment in life.
+              </p>
+              <p>
+                My journey through thyroid cancer taught me just how deeply our
+                health affects our sense of beauty and self-worth. That’s why I
+                approach aesthetics with compassion, empathy, and a genuine
+                desire to help you feel empowered in your own skin.
+              </p>
+              <p>
+                Whether you’re here for healing, relaxation, or a radiant glow —
+                you’re in good hands.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <h2 class="section-title">What Clients Are Saying</h2>
+          <p class="section-subtitle">
+            Heartfelt reviews from those who’ve experienced the glow ✨
+          </p>
+
+          <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card fade-in">
+              <p>
+                "I had my first facial with Felicia the other day & it was so
+                wonderful! I can't express how comfortable, soothing & left my
+                heart with joy when I left. From the facial to the hand & arm to
+                the pumpkin scrub on my feet & the scalp massage it was an epic
+                experience. I can't wait to see her again! Thank you Felicia!"
+              </p>
+              <h4>— Sherry K.</h4>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card fade-in">
+              <p>
+                "Felicia provides a lovely experience all around. She is
+                professional and knowledgeable, and she takes great care in
+                every aspect of the facial. My skin glows and feels so refreshed
+                after. always looking forward to my next one. 💖"
+              </p>
+              <h4>— Christina C.</h4>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card fade-in">
+              <p>
+                "Felicia..you are a true gem! Thank you for the amazing facial
+                that I needed oh so badly! I will be back!"
+              </p>
+              <h4>— Danielle M.</h4>
+            </div>
+          </div>
+
+          <div class="text-center mt-40">
+            <a
+              href="https://www.vagaro.com/facialsbyfelicia"
+              target="_blank"
+              class="btn btn-glow"
+            >
+              Read All Reviews on Vagaro
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- CTA SECTION -->
+      <section id="cta" class="cta">
+        <div class="container">
+          <h2 class="cta-title">Ready to Reconnect with Your Glow?</h2>
+          <p class="cta-subtitle">
+            Treat yourself to a moment of healing, care, and radiant skin. You
+            deserve it.
+          </p>
+          <a href="https://www.vagaro.com/facialsbyfelicia" class="btn">
+            Book Your Facial on Vagaro
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <!-- Column 1: Brand Info -->
+        <div class="footer-brand">
+          <h3>Breathe In Aesthetics</h3>
+          <p>Rancho Murieta, CA</p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <nav class="footer-links">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#cta">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Column 3: Social -->
+        <div class="footer-social">
+          <p>Follow Felicia:</p>
+          <a
+            href="https://www.instagram.com/breatheinaesthetics/"
+            target="_blank"
+          >
+            Instagram → </a
+          ><br />
+          <a
+            href="https://web.facebook.com/profile.php?id=61559838110080"
+            target="_blank"
+          >
+            Facebook →
+          </a>
+        </div>
+
+        <!-- Column 4: Hours -->
+        <div class="footer-hours">
+          <p><strong>Business Hours</strong></p>
+          <p>Sunday: 12:00 PM – 5:00 PM</p>
+          <p>Monday: 10:00 AM – 5:00 PM</p>
+          <p>Tuesday: 10:00 AM – 4:00 PM</p>
+          <p>Wednesday: 10:00 AM – 5:00 PM</p>
+          <p>Thu–Sat: Closed</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        &copy; 2025 Breathe In Aesthetics. All rights reserved.
+      </div>
+    </footer>
+
+    <div class="nav-overlay"></div>
+    <script src="./Js/Header.js"></script>
+    <script src="./Js/Animation.js"></script>
+    <script src="./Js/Modal.js"></script>
+  </body>
+</html>
